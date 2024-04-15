@@ -3,6 +3,6 @@
     box-sizing: border-box;
 }
 
-.bg-img{
-    background-image: url('../images/Photo.jpg');
+body{
+    font-family: "Raleway", sans-serif;
 }
