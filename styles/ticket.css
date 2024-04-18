@@ -10,3 +10,24 @@ body{
 .inter-font{
     font-family: "Inter", sans-serif;
 }
+
+.serial{
+    height: 2.5rem;
+    width: 5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.seat{
+    background-color: #F7F8F8;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
