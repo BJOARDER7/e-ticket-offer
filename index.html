@@ -85,7 +85,7 @@
             reservation of tickets online, <br />
             by making the process more easily accessible and convenient.
           </p>
-          <button class="bg-[#1DD100] px-7 py-5 text-xl font-bold rounded-xl">
+          <button id="btn-buyticket" class="bg-[#1DD100] px-7 py-5 text-xl font-bold rounded-xl">
             Buy Tickets
           </button>
         </div>
@@ -142,7 +142,7 @@
         </div>
       </section>
       <!-- P.H Poribahan functional section -->
-      <section
+      <section id="functional-section"
         class="mx-20 pb-12 bg-[#F7F8F8] border-t-2 border-green-600 rounded-t-3xl"
       >
         <div class="my-12 text-center">
@@ -315,7 +315,7 @@
                   <!-- head -->
                   <thead class="divide-y divide-dashed">
                     <tr>
-                      <th>Seat</th>
+                      <th>Seat <span class="inline-block bg-[#1DD100] px-1 rounded-lg text-white">0</span></th>
                       <th>Class</th>
                       <th>Price</th>
                     </tr>
@@ -446,5 +446,6 @@
       </div>
     </footer>
     
-  </body>
+    <script src="ticket.js"></script>
+  </body>  
 </html>
