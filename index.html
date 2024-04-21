@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="mx-4">
+  <body class="mx-2 lg:mx-4">
     <header>
       <!-- Nav Section -->
       <nav class="lg:mx-12">
@@ -73,21 +73,21 @@
       </nav>
       <!-- Banner Section -->
       <section
-        class="min-h-screen bg-[url(images/banner.png)] bg-no-repeat bg-center"
+        class="bg-contain lg:bg-auto lg:min-h-screen bg-[url(images/banner.png)] bg-no-repeat bg-center"
       >
-        <div class="min-h-screen flex flex-col justify-center items-center">
-          <h3 class="text-6xl font-extrabold text-white text-center">
+        <div class="min-h-64 lg:min-h-screen flex flex-col justify-center items-center">
+          <h3 class="text-xl lg:text-6xl font-semibold lg:font-extrabold text-white text-center">
             End-to-End Travel with
             <span class="text-[#1DD100] block text-center">E-Paribahan</span>
           </h3>
-          <p class="text-lg text-center text-white py-8">
+          <p class="text-xs lg:text-lg text-center text-white py-1 lg:py-8">
             Electronic ticketing over the Internet facilitates the buying or
-            reservation of tickets online, <br />
+            reservation of tickets <br /> online,
             by making the process more easily accessible and convenient.
           </p>
           <button
             id="btn-buyticket"
-            class="bg-[#1DD100] px-7 py-5 text-xl font-bold rounded-xl"
+            class="bg-[#1DD100] px-3 lg:px-7 py-2 lg:py-5 text-base lg:text-xl font-bold rounded lg:rounded-xl"
           >
             Buy Tickets
           </button>
@@ -96,12 +96,12 @@
     </header>
     <main>
       <!-- Best offer section -->
-      <section class="my-8">
-        <h2 class="text-center text-4xl font-bold">Best offers for you</h2>
-        <div class="my-12 flex justify-center items-center gap-x-6">
+      <section class="my-2 lg:my-8">
+        <h2 class="text-center text-2xl lg:text-4xl font-bold">Best offers for you</h2>
+        <div class="my-2 lg:my-12 flex flex-col lg:flex-row justify-center items-center gap-y-4 gap-x-2 lg:gap-x-6">
           <div class="flex">
-            <div class="h-52 w-80 bg-[#FFBF0F] inline-block p-12 rounded-s-3xl">
-              <h3 class="text-4xl font-black inter-font">15% OFF</h3>
+            <div class="h-52 w-full lg:w-80 bg-[#FFBF0F] inline-block p-12 rounded-s-3xl">
+              <h3 class="text-xl lg:text-4xl font-black inter-font">15% OFF</h3>
               <p class="text-lg font-bold">
                 on your next purchase <br />
                 <span class="opacity-60">use by January 2024</span>
@@ -111,15 +111,15 @@
               <img class="h-52" src="images/cupon-devider.png" alt="" />
             </div>
             <div
-              class="h-52 w-52 bg-[#FFBF0F] inline-block ps-6 py-16 rounded-e-3xl"
+              class="h-52 w-52 bg-[#FFBF0F] inline-block ps-2 lg:ps-6 py-16 rounded-e-2xl lg:rounded-e-3xl"
             >
-              <h3 id="coupon-15" class="text-2xl font-black">NEW15</h3>
-              <p class="text-lg font-bold opacity-60">Coupon Code</p>
+              <h3 id="coupon-15" class="text-lg lg:text-2xl font-black">NEW15</h3>
+              <p class="text-xs lg:text-lg font-bold opacity-60">Coupon Code</p>
             </div>
           </div>
           <div class="flex">
-            <div class="h-52 w-80 bg-[#F78C9C] inline-block p-12 rounded-s-3xl">
-              <h3 class="text-4xl font-black inter-font">20% OFF</h3>
+            <div class="h-52 w-full lg:w-80 bg-[#F78C9C] inline-block p-12 rounded-s-3xl">
+              <h3 class="text-xl lg:text-4xl font-black inter-font">20% OFF</h3>
               <p class="text-lg font-bold">
                 on your next purchase <br />
                 <span class="opacity-60">use by January 2024</span>
@@ -129,10 +129,10 @@
               <img class="h-52" src="images/cupon-devider.png" alt="" />
             </div>
             <div
-              class="h-52 w-52 bg-[#F78C9C] inline-block ps-6 py-16 rounded-e-3xl"
+              class="h-52 w-52 bg-[#F78C9C] inline-block ps-2 lg:ps-6 py-16 rounded-e-2xl lg:rounded-e-3xl"
             >
-              <h3 id="coupon-20" class="text-2xl font-black">Couple 20</h3>
-              <p class="text-lg font-bold opacity-60">Coupon Code</p>
+              <h3 id="coupon-20" class="text-lg lg:text-2xl font-black">Couple 20</h3>
+              <p class="text-xs lg:text-lg font-bold opacity-60">Coupon Code</p>
             </div>
           </div>
         </div>
@@ -147,26 +147,25 @@
       <!-- P.H Poribahan functional section -->
       <section
         id="functional-section"
-        class="mx-20 pb-12 bg-[#F7F8F8] border-t-2 border-green-600 rounded-t-3xl"
+        class="mx-2 lg:mx-20 pb-2 lg:pb-12 bg-[#F7F8F8] border-t-2 border-green-600 rounded-t-xl lg:rounded-t-3xl"
       >
-        <div class="my-12 text-center">
-          <h2 class="text-3xl font-bold">E-Paribahan</h2>
-          <p class="text-lg opacity-60">
+        <div class="my-4 lg:my-12 text-center">
+          <h2 class="text-lg lg:text-3xl font-bold">E-Paribahan</h2>
+          <p class="text-xs lg:text-lg opacity-60 px-2">
             Electronic ticketing over the Internet facilitates the buying or
-            reservation of tickets online, <br />
-            by making the process more easily accessible and convenient.
+            reservation of <br /> tickets online, by making the process more easily accessible and convenient.
           </p>
         </div>
-        <div class="flex bg-white rounded-3xl mx-12">
-          <div class="w-3/4 py-8 px-4">
+        <div class="flex flex-col lg:flex-row bg-white rounded lg:rounded-3xl mx-2 lg:mx-12">
+          <div class="w-full lg:w-3/4 py-2 lg:py-8 px-2 lg:px-4">
             <div class="flex justify-between">
               <div class="flex justify-center items-center gap-2">
                 <div>
-                  <img src="images/bus-logo.png" alt="" />
+                  <img class="h-auto" src="images/bus-logo.png" alt="" />
                 </div>
                 <div>
-                  <h3 class="text-3xl font-bold">Electronic Paribahan</h3>
-                  <p class="text-lg opacity-60">Coach-009-WEB ! AC_Business</p>
+                  <h3 class="text-lg lg:text-3xl font-bold">Electronic Paribahan</h3>
+                  <p class="text-xs lg:text-lg opacity-60">Coach-009-WEB ! AC_Business</p>
                 </div>
               </div>
               <div class="flex">
@@ -178,7 +177,7 @@
               </div>
             </div>
             <div
-              class="bg-[#F7F8F8] divide-y divide-dashed flex flex-col my-8 rounded-xl"
+              class="bg-[#F7F8F8] divide-y divide-dashed flex flex-col my-2 lg:my-6 rounded-xl"
             >
               <div class="flex items-center justify-between">
                 <p class="py-4 ps-4">Route</p>
@@ -190,19 +189,19 @@
                 <p class="py-4 pe-4">9:00 PM</p>
               </div>
 
-              <div class="flex gap-8 justify-center py-4">
+              <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 justify-center py-2 lg:py-4">
                 <div>
-                  <button class="bg-[#0307120D] p-2 rounded-xl w-56">
+                  <button class="bg-[#0307120D] p-2 rounded-xl w-96 lg:w-56">
                     Boarding Point - Laxmipur
                   </button>
                 </div>
                 <div>
-                  <button class="bg-[#0307120D] p-2 rounded-xl w-56">
+                  <button class="bg-[#0307120D] p-2 rounded-xl w-96 lg:w-56">
                     Dropping Point - Bogura
                   </button>
                 </div>
                 <div>
-                  <button class="bg-[#0307120D] p-2 rounded-xl w-56">
+                  <button class="bg-[#0307120D] p-2 rounded-xl w-96 lg:w-56">
                     Est. Time - 11 Hour
                   </button>
                 </div>
@@ -210,43 +209,43 @@
             </div>
           </div>
 
-          <div class="w-1/12">
+          <div class="w-full hidden lg:block lg:w-1/12">
             <img class="h-96" src="images/info-devider.png" alt="" />
           </div>
           <div
-            class="w-1/6 flex flex-col justify-center items-center space-y-2"
+            class="w-full lg:w-1/6 flex flex-col justify-center items-center space-y-2"
           >
             <div><img src="images/fare.png" alt="" /></div>
             <div class="text-center">
-              <h3 class="text-3xl font-bold">
+              <h3 class="text-2xl lg:text-3xl font-bold">
                 <span id="seat-price">550</span> Taka
               </h3>
-              <p class="text-2xl font-semibold opacity-60">Per Seat</p>
+              <p class="text-base lg:text-2xl font-semibold opacity-60">Per Seat</p>
             </div>
           </div>
         </div>
         <!-- select seat section -->
         <div
-          class="flex divide-x divide-dashed bg-white rounded-3xl mx-12 mt-4"
+          class="flex flex-col lg:flex-row lg:divide-x lg:divide-dashed bg-white rounded-lg lg:rounded-3xl mx-4 lg:mx-12 mt-2 lg:mt-4"
         >
           <!-- select seat left section -->
-          <div class="w-3/5">
-            <div class="pe-4">
-              <div class="divide-y divide-dashed py-4 px-12 space-y-4">
+          <div class="w-full lg:w-3/5">
+            <div class="pe-2 lg:pe-4">
+              <div class="divide-y divide-dashed py-2 lg:py-4 px-4 lg:px-12 space-y-2 lg:space-y-4">
                 <h3>Select Your Seat</h3>
                 <div class="flex justify-between">
-                  <div class="flex items-center pt-4">
+                  <div class="flex items-center pt-2 lg:pt-4">
                     <div><img src="images/seat-gray.png" alt="" /></div>
                     <p>Available</p>
                   </div>
-                  <div class="flex items-center pt-4">
+                  <div class="flex items-center pt-2 lg:pt-4">
                     <div><img src="images/seat-green-filled.png" alt="" /></div>
                     <p class="text-[#1DD100]">Selected</p>
                   </div>
                 </div>
-                <div class="flex justify-end pt-4">
+                <div class="flex justify-end pt-2 lg:pt-4">
                   <div
-                    class="w-24 h-12 bg-[#0307121A] rounded-md flex justify-center items-center"
+                    class="w-20 lg:w-24 h-10 lg:h-12 bg-[#0307121A] rounded-md flex justify-center items-center"
                   >
                     <img class="h-8" src="images/steering-wheel.png" alt="" />
                   </div>
@@ -254,8 +253,8 @@
               </div>
 
               <!-- seat -->
-              <div class="inter-font flex items-center py-4 ps-4 pe-12">
-                <div class="flex flex-col gap-6">
+              <div class="inter-font flex items-center py-2 lg:py-4 ps-2 lg:ps-4 pe-4 lg:pe-12">
+                <div class="flex flex-col gap-2 lg:gap-6">
                   <div class="serial">A</div>
                   <div class="serial">B</div>
                   <div class="serial">C</div>
@@ -267,7 +266,7 @@
                   <div class="serial">I</div>
                   <div class="serial">J</div>
                 </div>
-                <div id="seat-selection" class="grid grid-cols-4 gap-6">
+                <div id="seat-selection" class="grid grid-cols-4 gap-2 lg:gap-6">
                   <button id="A1" class="seat">A1</button>
                   <button id="A2" class="seat">A2</button>
                   <button id="A3" class="seat seat-right">A3</button>
@@ -314,7 +313,7 @@
           </div>
           <!-- select seat right section -->
           <div
-            class="w-2/5 py-4 px-8 divide-y divide-dashed space-y-4 inter-font"
+            class="w-full lg:w-2/5 py-2 lg:py-4 px-2 lg:px-8 divide-y divide-dashed space-y-2 lg:space-y-4 inter-font"
           >
             <h3>Select Your Seat</h3>
             <div class="bg-[#F7F8F8] rounded-lg">
@@ -327,7 +326,7 @@
                         Seat
                         <span
                           id="seat-count"
-                          class="inline-block bg-[#1DD100] px-1 rounded-lg text-white"
+                          class="inline-block bg-[#1DD100] px-1 rounded-md lg:rounded-lg text-white"
                           >0</span
                         >
                       </th>
@@ -353,12 +352,12 @@
 
               <!-- coupon start -->
 
-              <div class="relative flex w-5/6 bg-white my-2 mx-4">
+              <div class="relative flex w-5/6 bg-white my-2 mx-2 lg:mx-4">
                 <div class="relative h-10 w-full min-w-screen">
                   <input
                     type="email"
                     id="coupon-input"
-                    class="peer h-full w-full rounded-md border border-t-transparent bg-transparent px-3 py-3 pr-20 text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+                    class="peer h-full w-full mx-auto lg:w-full rounded-md border border-t-transparent bg-transparent text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
                     placeholder=" "
                     value=""
                   />
@@ -371,21 +370,21 @@
                 <button
                   disabled
                   id="apply-btn"
-                  class="!absolute right-1 top-1 select-none rounded bg-[#1DD100] py-2 px-4 text-center text-white align-middle text-xs font-bold shadow-md shadow-blue-gray-500/20 transition-all hover:shadow-lg hover:shadow-blue-gray-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-30 disabled:shadow-none"
+                  class="!absolute right-1 top-1 select-none rounded bg-[#1DD100] mx-2 py-2 px-4 text-center text-white align-middle text-xs font-bold shadow-md shadow-blue-gray-500/20 transition-all hover:shadow-lg hover:shadow-blue-gray-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-30 disabled:shadow-none"
                   type="button"
                 >
                   Apply
                 </button>
               </div>
               <!-- copupon end -->
-              <div class="flex justify-between ps-4 pe-12 py-4">
-                <p class="text-lg font-semibold">Grand Total</p>
-                <p class="text-lg font-semibold ps-0">
+              <div class="flex justify-between ps-2 lg:ps-4 pe-12 py-2 lg:py-4">
+                <p class="text-md lg:text-lg font-semibold">Grand Total</p>
+                <p class="text-md lg:text-lg font-semibold ps-0">
                   BDT <span id="grand-total">0</span>
                 </p>
               </div>
             </div>
-            <form class="space-y-6">
+            <form class="space-y-4 lg:space-y-6">
               <label class="form-control w-full max-w-xs">
                 <div class="label">
                   Passenger Name*
@@ -428,7 +427,7 @@
                 value="Next"
               />
             </form>
-             <div class="flex space-x-12 py-2 text-xs justify-center">
+             <div class="flex space-x-8 lg:space-x-12 py-2 text-xs justify-center">
               <p class="underline">Terms and Conditions</p>
               <p class="underline">Cancellation Policy</p>
             </div>
@@ -438,19 +437,19 @@
     </main>
     <!-- Footer -->
     <footer
-      class="p-10 mx-20 bg-neutral text-neutral-content divide-y divide-dashed flex flex-col justify-center space-y-4"
+      class="p-4 lg:p-10 mx-2 lg:mx-20 mb-8 bg-neutral text-neutral-content divide-y divide-dashed flex flex-col justify-center space-y-4"
     >
       <div class="flex justify-between items-center">
         <aside>
-          <h3 class="text-4xl font-extrabold">E-Ticket</h3>
-          <p class="text-lg inter-font">
+          <h3 class="text-xl lg:text-4xl font-extrabold">E-Ticket</h3>
+          <p class="text-xs lg:text-lg inter-font">
             E-Ticket is a digital platform to make <br />
             your daily commuting better.
           </p>
         </aside>
         <nav class="inter-font">
-          <h6 class="text-xl font-semibold">Downloan your app</h6>
-          <div class="flex justify-center items-center py-4">
+          <h6 class="text-base lg:text-xl font-semibold">Downloan your app</h6>
+          <div class="flex justify-center items-center py-2 lg:py-4">
             <button><img src="images/playstore.png" alt="" /></button>
             <div class="ps-2">
               <p class="text-sm">GET IT ON</p>
@@ -459,12 +458,12 @@
           </div>
         </nav>
       </div>
-      <div class="flex justify-between items-center py-8 inter-font">
+      <div class="flex flex-col lg:flex-row justify-between items-center py-4 lg:py-8 inter-font">
         <p>@All rights reserved, E-Ticket services limited,2024</p>
-        <div class="flex gap-4">
-          <p>Terms & condition</p>
-          <p>Return & refund policy</p>
-          <p>Privacy policy</p>
+        <div class="flex gap-4 space-x-4 pt-3 lg:pt-0">
+          <p class="text-xs lg:text-base">Terms & condition</p>
+          <p class="text-xs lg:text-base">Return & refund policy</p>
+          <p class="text-xs lg:text-base">Privacy policy</p>
         </div>
       </div>
     </footer>
