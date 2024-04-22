@@ -2,10 +2,14 @@
 
 const seats = document.getElementsByClassName('seat');
 let count = 0;
-if( count < 4){ 
-
     for(const seat of seats){
         seat.addEventListener('click', function(event){
+
+            
+    if(count > 3){
+        return;
+    }
+    else {
             // bg-color change
         event.target.classList.add('bg-[#1DD100]');
     //   appent table tr td
@@ -43,17 +47,11 @@ if( count < 4){
       applyButton.removeAttribute('disabled');
     }
     // cupon price need
-    grandTotal.innerText = price * count;
-
-    
-    
+    grandTotal.innerText = price * count;  
+} 
 
         })
     }
-}
-else {
-    console.log('no');
-}
 
 
 // active next button
