@@ -10,6 +10,11 @@ let count = 0;
         return;
     }
     else {
+        const isSelected = event.target.classList.contains("bg-[#1DD100]");
+        if(isSelected){
+            return;
+        } 
+        else {
             // bg-color change
         event.target.classList.add('bg-[#1DD100]');
     //   appent table tr td
@@ -49,7 +54,7 @@ let count = 0;
     // cupon price need
     grandTotal.innerText = price * count;  
 } 
-
+}
         })
     }
 
