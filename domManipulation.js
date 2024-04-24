@@ -68,18 +68,27 @@ for (const seat of seats) {
             const coupon = document
               .getElementById("coupon-input")
               .value.toLowerCase();
-
+              const couponField = document.getElementById('coupon-field');
+              const couponPrice = document.getElementById('coupon-price');
+              const showCouponField = document.getElementById('show-coupon-price');
             if (coupon) {
               if (coupon == coupon15) {
                 grandTotal = totalPrice - discount15;
+                couponField.classList.add('hidden');
+                couponPrice.innerText = discount15;
+                showCouponField.classList.remove('hidden');
               } else if (coupon == coupon20) {
                 grandTotal = totalPrice - discount20;
+                couponField.classList.add('hidden');
+                couponPrice.innerText = discount20;
+                showCouponField.classList.remove('hidden');
               } else {
                 alert("Cautious, this is not a valid coupon code, please provide correct code.");
               }
             }
 
             grandTotalField.innerText = grandTotal;
+            
           });
       }
     } else {
