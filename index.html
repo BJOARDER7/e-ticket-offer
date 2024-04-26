@@ -45,7 +45,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-36 lg:52"
               >
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
@@ -73,9 +73,9 @@
       </nav>
       <!-- Banner Section -->
       <section
-        class="bg-contain bg-[url(images/banner.png)] bg-no-repeat bg-center"
+        class="bg-contain w-contain bg-[url(images/banner.png)] bg-no-repeat bg-center"
       >
-        <div class="min-h-64 lg:min-h-screen flex flex-col justify-center items-center">
+        <div class="min-h-48 lg:min-h-screen flex flex-col justify-center items-center">
           <h3 class="text-xl lg:text-6xl font-semibold lg:font-extrabold text-white text-center">
             End-to-End Travel with
             <span class="text-[#1DD100] block text-center">E-Paribahan</span>
@@ -87,7 +87,7 @@
           </p>
           <button
             id="btn-buyticket"
-            class="bg-[#1DD100] px-3 lg:px-7 py-2 lg:py-5 text-base lg:text-xl font-bold rounded lg:rounded-xl"
+            class="bg-[#1DD100] px-2 lg:px-7 py-2 lg:py-5 text-base lg:text-xl font-bold rounded lg:rounded-xl"
           >
             Buy Tickets
           </button>
@@ -98,45 +98,45 @@
       <!-- Best offer section -->
       <section class="my-2 lg:my-8">
         <h2 class="text-center text-2xl lg:text-4xl font-bold">Best offers for you</h2>
-        <div class="mx-0 lg:mx-4 my-2 lg:my-12 flex flex-col lg:flex-row justify-between items-center gap-y-4">
+        <div class="mx-0 my-2 lg:my-12 flex flex-col lg:flex-row justify-between items-center gap-y-4 gap-x-6">
           <div class="flex">
-            <div class="h-52 w-full lg:w-80 bg-[#FFBF0F] inline-block p-12 rounded-s-3xl">
+            <div class="h-36 lg:h-56 w-contain lg:w-72 bg-[#FFBF0F] inline-block p-8 lg:p-12 rounded-s-3xl">
               <h3 class="text-xl lg:text-4xl font-black inter-font">15% OFF</h3>
               <p class="text-lg font-bold">
                 on your next purchase <br />
                 <span class="opacity-60">use by January 2024</span>
               </p>
             </div>
-            <div class="h-52 bg-[#FFBF0F] inline-block">
-              <img class="h-52" src="images/cupon-devider.png" alt="" />
+            <div class="h-36 lg:h-56 bg-[#FFBF0F] inline-block">
+              <img class="h-36 lg:h-56" src="images/cupon-devider.png" alt="" />
             </div>
             <div
-              class="h-52 w-52 bg-[#FFBF0F] inline-block ps-2 lg:ps-6 py-16 rounded-e-2xl lg:rounded-e-3xl"
+              class="h-36 lg:h-56 w-contain bg-[#FFBF0F] inline-block ps-2 lg:ps-6 py-8 lg:py-16 rounded-e-2xl lg:rounded-e-3xl"
             >
-              <h3 id="coupon-15" class="text-lg lg:text-2xl font-black">NEW15</h3>
+              <h3 id="coupon-15" class="text-md lg:text-xl font-black">NEW15</h3>
               <p class="text-xs lg:text-lg font-bold opacity-60">Coupon Code</p>
             </div>
           </div>
           <div class="flex">
-            <div class="h-52 w-full lg:w-80 bg-[#F78C9C] inline-block p-12 rounded-s-3xl">
+            <div class="h-36 lg:h-56 w-contain lg:w-72 bg-[#F78C9C] inline-block p-8 lg:p-12 rounded-s-3xl">
               <h3 class="text-xl lg:text-4xl font-black inter-font">20% OFF</h3>
               <p class="text-lg font-bold">
                 on your next purchase <br />
                 <span class="opacity-60">use by January 2024</span>
               </p>
             </div>
-            <div class="h-52 bg-[#F78C9C] inline-block">
-              <img class="h-52" src="images/cupon-devider.png" alt="" />
+            <div class="h-36 lg:h-56 bg-[#F78C9C] inline-block">
+              <img class="h-36 lg:h-56" src="images/cupon-devider.png" alt="" />
             </div>
             <div
-              class="h-52 w-52 bg-[#F78C9C] inline-block ps-2 lg:ps-6 py-16 rounded-e-2xl lg:rounded-e-3xl"
+              class="h-36 lg:h-56 w-contain bg-[#F78C9C] inline-block ps-2 lg:ps-6 py-8 lg:py-16 rounded-e-2xl lg:rounded-e-3xl"
             >
-              <h3 id="coupon-20" class="text-lg lg:text-2xl font-black">Couple 20</h3>
+              <h3 id="coupon-20" class="text-md lg:text-xl font-black">Couple 20</h3>
               <p class="text-xs lg:text-lg font-bold opacity-60">Coupon Code</p>
             </div>
           </div>
         </div>
-        <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center mt-4">
           <button
             class="btn btn-outline btn-center text-[#1DD100] text-xl font-bold rounded-xl"
           >
@@ -147,9 +147,9 @@
       <!-- E-Poribahan functional section -->
       <section
         id="functional-section"
-        class="mx-2 lg:mx-4 pb-2 lg:pb-12 bg-[#F7F8F8] border-t-2 border-green-600 rounded-t-xl lg:rounded-t-3xl"
+        class="mx-2 lg:mx-4 pb-2 lg:pb-8 bg-[#F7F8F8] border-t-2 border-green-600 rounded-t-xl lg:rounded-t-3xl"
       >
-        <div class="my-4 lg:my-12 text-center">
+        <div class="my-4 lg:my-8 text-center">
           <h2 class="text-lg lg:text-3xl font-bold">E-Paribahan</h2>
           <p class="text-xs lg:text-lg opacity-60 px-2">
             Electronic ticketing over the Internet facilitates the buying or
@@ -157,7 +157,7 @@
           </p>
         </div>
         <div class="flex flex-col lg:flex-row bg-white rounded lg:rounded-3xl mx-2 lg:mx-12">
-          <div class="w-full lg:w-3/4 py-2 lg:py-8 px-2 lg:px-4">
+          <div class="w-contain lg:w-3/4 py-2 lg:py-8 px-2 lg:px-4">
             <div class="flex justify-between">
               <div class="flex justify-center items-center gap-2">
                 <div>
@@ -168,11 +168,10 @@
                   <p class="text-xs lg:text-lg opacity-60">Coach-009-WEB ! AC_Business</p>
                 </div>
               </div>
-              <div class="flex">
+              <div class="flex me-2">
                 <div><img src="images/seat-green.png" alt="" /></div>
                 <p>
-                  <span id="seat-left" class="ps-2 inter-font">40</span> Seats
-                  left
+                  <span id="seat-left" class="ps-2 inter-font">40</span> Seats left
                 </p>
               </div>
             </div>
@@ -189,19 +188,19 @@
                 <p class="py-4 pe-4">9:00 PM</p>
               </div>
 
-              <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 justify-center py-2 lg:py-4">
+              <div class="flex flex-col lg:flex-row gap-4 justify-center py-2 lg:py-4">
                 <div>
-                  <button class="bg-[#0307120D] p-2 rounded-xl w-96 lg:w-56">
+                  <button class="bg-[#0307120D] p-2 rounded-xl w-64 lg:w-56">
                     Boarding Point - Laxmipur
                   </button>
                 </div>
                 <div>
-                  <button class="bg-[#0307120D] p-2 rounded-xl w-96 lg:w-56">
+                  <button class="bg-[#0307120D] p-2 rounded-xl w-64 lg:w-56">
                     Dropping Point - Bogura
                   </button>
                 </div>
                 <div>
-                  <button class="bg-[#0307120D] p-2 rounded-xl w-96 lg:w-56">
+                  <button class="bg-[#0307120D] p-2 rounded-xl w-64 lg:w-56">
                     Est. Time - 11 Hour
                   </button>
                 </div>
@@ -209,11 +208,11 @@
             </div>
           </div>
 
-          <div class="w-full hidden lg:block lg:w-1/12">
+          <div class="w-contain hidden lg:block lg:w-1/12">
             <img class="h-96" src="images/info-devider.png" alt="" />
           </div>
           <div
-            class="w-full lg:w-1/6 flex flex-col justify-center items-center space-y-2"
+            class="w-contain lg:w-1/6 flex flex-col justify-center items-center space-y-2"
           >
             <div><img src="images/fare.png" alt="" /></div>
             <div class="text-center">
@@ -229,11 +228,11 @@
           class="flex flex-col lg:flex-row lg:divide-x lg:divide-dashed bg-white rounded-lg lg:rounded-3xl mx-2 lg:mx-4 mt-2 lg:mt-4"
         >
           <!-- select seat left section -->
-          <div class="w-full lg:w-3/5">
+          <div class="w-contain lg:w-3/5">
             <div class="pe-2 lg:pe-4">
-              <div class="divide-y divide-dashed py-2 lg:py-4 px-2 lg:px-4 space-y-2 lg:space-y-4">
+              <div class="divide-y divide-dashed py-2 lg:py-4 px-2 lg:px-4 me-8 lg:me-0 space-y-2 lg:space-y-4">
                 <h3>Select Your Seat</h3>
-                <div class="flex justify-between me-2 lg:me-10">
+                <div class="flex justify-between me-2 lg:me-2">
                   <div class="flex items-center pt-2 lg:pt-4">
                     <div><img src="images/seat-gray.png" alt="" /></div>
                     <p>Available</p>
@@ -243,7 +242,7 @@
                     <p class="text-[#1DD100]">Selected</p>
                   </div>
                 </div>
-                <div class="flex justify-end pt-2 lg:pt-4 me-2 lg:me-10">
+                <div class="flex justify-end pt-2 lg:pt-4 me-2">
                   <div
                     class="w-20 lg:w-24 h-10 lg:h-12 bg-[#0307121A] rounded-md flex justify-center items-center"
                   >
@@ -313,7 +312,7 @@
           </div>
           <!-- select seat right section -->
           <div
-            class="w-full lg:w-2/5 py-2 lg:py-4 px-2 lg:px-4 divide-y divide-dashed space-y-2 lg:space-y-4 inter-font"
+            class="w-contain lg:w-2/5 py-2 lg:py-4 px-2 lg:px-4 divide-y divide-dashed space-y-2 lg:space-y-4 inter-font"
           >
             <h3>Select Your Seat</h3>
             <div class="bg-[#F7F8F8] rounded-lg">
@@ -379,7 +378,7 @@
                 </button>
               </div>
               <!-- copupon end -->
-              <div class="flex justify-between ps-2 lg:ps-4 pe-12 py-2 lg:py-4">
+              <div class="flex justify-between ps-2 lg:ps-4 pe-2 lg:pe-8 py-2 lg:py-4">
                 <p class="text-md lg:text-lg font-semibold">Grand Total</p>
                 <p class="text-md lg:text-lg font-semibold ps-0">
                   BDT <span id="grand-total">0</span>
@@ -451,7 +450,7 @@
     </div>
   </div>
 </dialog>
-             <div class="flex space-x-8 lg:space-x-12 py-2 text-xs justify-center">
+             <div class="flex space-x-2 lg:space-x-4 py-2 text-xs justify-center">
               <p class="underline">Terms and Conditions</p>
               <p class="underline">Cancellation Policy</p>
             </div>
@@ -461,7 +460,7 @@
     </main>
     <!-- Footer -->
     <footer
-      class="p-4 lg:p-10 mx-2 lg:mx-20 mb-8 bg-neutral text-neutral-content divide-y divide-dashed flex flex-col justify-center space-y-4"
+      class="p-2 lg:p-8 mb-4 lg:mb-8 bg-neutral text-neutral-content divide-y divide-dashed flex flex-col justify-center space-y-4"
     >
       <div class="flex justify-between items-center">
         <aside>
@@ -482,9 +481,9 @@
           </div>
         </nav>
       </div>
-      <div class="flex flex-col lg:flex-row justify-between items-center py-4 lg:py-8 inter-font">
+      <div class="flex flex-col lg:flex-row justify-between items-center py-2 lg:py-8 inter-font">
         <p>@All rights reserved, E-Ticket services limited,2024</p>
-        <div class="flex gap-4 space-x-4 pt-3 lg:pt-0">
+        <div class="flex gap-4 space-x-2 pt-3 lg:pt-0">
           <p class="text-xs lg:text-base">Terms & condition</p>
           <p class="text-xs lg:text-base">Return & refund policy</p>
           <p class="text-xs lg:text-base">Privacy policy</p>
